@@ -1,0 +1,31 @@
+#lang racket
+;#tipos de datos
+#|Para hacer comentarios más largos|#
+#|
+Booleanos
+#t;true
+#f;false
+exactos:
+;enteros(1,2,3,-4,2/5;3i)
+inexactos:
+;5.5,inf
+pregunta?
+\e(caracteres)
+cadenas de caracteres
+display para imprimir
+\n salto de linea o newline
+para imprimir comillas \"dhifu\"
+par:estructura que tiene elementos 1 y 2
+Se relaciona con listas enlazadas
+(cons 1 2)
+'(1.2)
+(car heh) para obtener el primer elemento del par
+(cdr heh) para obtener el segundo elemento
+tambien podemos usar list
+|#
+ ; ejemplo par:
+(define lista(cons 1
+                  (cons 2
+                        (cons 3
+                              (cons 4 null)))))
+                        
